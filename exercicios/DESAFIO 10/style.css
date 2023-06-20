@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('idroid.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;700&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 221, 255);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 6px;
+    padding-bottom: 30px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.mainh {
+    color: rgb(0, 36, 77);
+    font-family: idroid;
+    text-shadow: none;
+    text-align: left;
+    margin: 0px 0px 0px 30px;
+    padding-top: 10px;
+    
+}
+
+.headh {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.phead {
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 18px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #5f7ddf, rgb(0, 11, 70));
+    padding: 30px 30px 10px 30px;
+}
+
+.ahead {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+nav > a {
+    padding: 10px;
+}
+
+.ahead:hover {
+    color: rgb(13, 0, 87);
+    background-color: #6a83d6b0;
+    border-radius: 5px;
+    padding: 5px;
+    transition-duration: .3s;
+}
+
+.pmain {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px;
+}
+
+.h1back {
+    background-image: linear-gradient(to right, rgb(100, 100, 255), white);
+    color: rgb(0, 36, 77);
+    font-family: idroid;
+    text-shadow: none;
+    text-align: left;
+    margin: 0px 0px 0px 30px;
+}
+
+strong {
+    color: rgb(0, 36, 77);
+}
+
+.sb {
+    color: rgb(0, 36, 77);
+    background-color: #5f7ddf;
+    padding: 0px 5px;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+}
+
+.amain {
+    color: rgb(0, 36, 77);
+    text-decoration: none;
+}
+
+.amain:hover {
+    text-decoration: underline;
+}
+
+.imgirina {
+    margin: auto;
+    width: 100%;
+}
+
+.imgbug {
+    display: flex;
+    margin: auto;
+    max-width: 450px;
+    width: 450px;
+}
+
+iframe {
+    background-color: #5f7ddf;
+    padding: 100px 0px 100px 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.divf {
+    background-color: rgb(33, 32, 122);
+    color: white;
+    margin: 30px 30px 0px 30px;
+    border-radius: 6px;
+    padding-bottom: 30px;
+}
+
+div {
+    background-color: rgb(66, 64, 207);
+    margin: 30px 30px 0px 30px;
+    border-radius: 6px;
+}
+
+.footer {
+    margin: 10px 10px 0px 30px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.fo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    margin: 30px 0px 0px 0px;
+    background-color: #001a70;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.f::before {
+    content: '✓';
+}
+
+.f {
+    text-decoration: none;
+    color: wheat;
+}
+
+.f:visited {
+    color: wheat;
+}
+
+

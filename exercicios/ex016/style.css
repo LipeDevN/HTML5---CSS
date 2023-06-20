@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Inter';font-size: 20px;
+}
+
+main {
+    background-color: #ffff;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5%;
+    box-shadow:10px 10px 20px#7D0F00;
+}
+
+h1 {
+    color: #7D0F00;
+    text-align: center;
+    text-shadow: 1px 1px 3px #FD614C;
+    size: 100px;
+}
+
+h2 {
+    color: #FD614C;
+    text-align: justify;
+    text-shadow: 1px 1px 3px #7D0F00;
+}
+
+p {
+    text-align: justify;
+    text-shadow: 1px 1px 1px black;
+}
+
+body {
+    background-image: linear-gradient(to right, #FC1D00, #7D3025);
+}
